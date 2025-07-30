@@ -30,6 +30,12 @@
       margin-bottom: 15px;
       padding-bottom: 5px;
     }
+    @media print {
+ button, .btn, .text-center.my-4 {
+ display: none !important;
+ }
+}
+
   </style>
 </head>
 <body>
@@ -91,6 +97,9 @@
          LinkedIn: linkedin.com/in/nurulhikmahaulia</p>
     </div>
   </div>
+<div class="text-center my-4">
+ <button class="btn btn-outline-primary" onclick="window.print()">🖨️ Cetak CV</button>
+</div>
 
 </body>
 </html>
